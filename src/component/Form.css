@@ -1,0 +1,23 @@
+
+
+.maindiv{
+
+    width:50%;
+border: 2px solid black;
+border-radius: 10px;
+display:flex;
+flex-direction: column;
+margin-left: 20px;
+
+background-color:rgb(83, 225, 241);
+
+align-items: center;
+
+gap :20px
+
+}
+.input{
+
+    border-radius: 12px;
+    padding:5px;
+}
