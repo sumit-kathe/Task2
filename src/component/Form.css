@@ -3,22 +3,81 @@
 .maindiv{
 
     width:50%;
-border: 2px solid black;
+border: 2px solid rgb(12, 242, 242);
 border-radius: 10px;
 display:flex;
 flex-direction: column;
-margin-left: 20px;
+margin-left:23%;
 
-background-color:rgb(83, 225, 241);
+background-color:rgb(0, 12, 14);
 
-
+color:aqua;
 align-items: center;
 
-gap :20px
+
+gap :20px;
 
 }
-.input{
+.maindiv:hover{
+box-shadow: 0px 1px 8px 2px rgb(250, 250, 250);
 
-    border-radius: 12px;
-    padding:5px;
+}
+.inputfild{
+
+    border-radius: 9px;
+    padding:8px;
+   color:aqua;
+ height:20px;
+ width:200px;
+}
+.inputfild:hover{
+   box-shadow: 0px 1px 8px 2px rgb(250, 250, 250);
+
+}
+
+.row{
+
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    align-items:stretch
+
+}
+.btn{
+
+color:aqua;
+padding:10px;
+border-radius: 10px;
+background-color: black;
+border: 2px solid aqua;
+margin-bottom: 20px;
+
+}
+.btn:hover {
+
+box-shadow: 0px 1px 8px 2px rgb(250, 250, 250);
+padding:11px;
+color:rgb(5, 249, 95);
+border-radius: 11px;
+font-weight: bold;
+
+
+
+}
+.quali{
+
+    color:white;
+    border-radius: 8px;
+    
+}
+.quali:hover{
+box-shadow: 0px 1px 8px 2px rgb(250, 250, 250);
+
+}
+.what{
+    color: aqua;
+}
+.detail{
+
+    color:white
 }
