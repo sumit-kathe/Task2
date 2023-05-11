@@ -45,17 +45,16 @@ const Form = () => {
     console.log("value of checkboc" ,value)
     console.log("checked or  not", checked )
 
+     // setopen(false)
+       
     if(value==="Other"){
 
       setopen(true)
 
 
-    }
-    else{
-      setopen(false)
-      
-    }
 
+    }
+    
     if(checked){
 
       setskill([...skill,value])
@@ -64,13 +63,18 @@ const Form = () => {
     else{
 
 
-      setskill(skill.filter((e)=>e !== value))
+      setskill(skill.filter((e)=>
+        
+        e !== value)
+
+      
     // setskill(skill.filter(value))
 
-    }
+    )
     
 
   }
+}
    
   return (
     <>
